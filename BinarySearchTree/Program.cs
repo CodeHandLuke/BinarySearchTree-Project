@@ -20,6 +20,14 @@ namespace BinarySearchTreeProject
             Console.ReadLine();
             Console.WriteLine(binarySearch.root.data);
             Console.ReadLine();
+            Console.WriteLine(binarySearch.Search(100));
+            Console.ReadLine();
+            Console.WriteLine(binarySearch.Search(125));
+            Console.ReadLine();
+            Console.WriteLine(binarySearch.Search(30));
+            Console.ReadLine();
+            Console.WriteLine(binarySearch.Search(3000)); //FALSE return
+            Console.ReadLine();
         }
     }
 }

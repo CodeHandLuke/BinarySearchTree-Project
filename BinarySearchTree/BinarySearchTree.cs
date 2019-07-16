@@ -96,7 +96,7 @@ namespace BinarySearchTreeProject
                     {
                         if (currentParentNode.left == null)
                         {
-                            Console.WriteLine($"{value} not found in tree!");
+                            Console.WriteLine($"{value} was not found in tree!");
                             return false;
                         }
 
@@ -117,7 +117,7 @@ namespace BinarySearchTreeProject
                     {
                         if (currentParentNode.right == null)
                         {
-                            Console.WriteLine($"{value} not found in tree!");
+                            Console.WriteLine($"{value} was not found in tree!");
                             return false;
                         }
 
